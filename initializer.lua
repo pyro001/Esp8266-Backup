@@ -2,7 +2,7 @@ ssid = "Name of wifi"
 pass = "password"
 
 -- Configure Wireless Internet
-print('\nAll About Circuits init.lua\n')
+print('\ninit.lua\n')
 wifi.setmode(wifi.STATION)
 print('set mode=STATION (mode='..wifi.getmode()..')\n')
 print('MAC Address: ',wifi.sta.getmac())
